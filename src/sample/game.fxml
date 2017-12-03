@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.game">
+   <children>
+      <ImageView fitHeight="519.0" fitWidth="659.0" layoutX="-3.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@juste%20prix.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="screen" alignment="CENTER" layoutX="125.0" layoutY="25.0" prefHeight="67.0" prefWidth="360.0">
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" color="#1b1b1b" height="48.32" radius="75.33" spread="0.58" width="255.0" />
+         </effect></TextField>
+      <Button fx:id="valide" blendMode="EXCLUSION" cacheHint="QUALITY" layoutX="477.0" layoutY="343.0" mnemonicParsing="false" onAction="#valider" opacity="0.69" prefHeight="73.0" prefWidth="137.0" text="valider" textFill="#4501f2" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="rejouer" alignment="CENTER" layoutX="57.0" layoutY="349.0" mnemonicParsing="false" onAction="#rejouer" opacity="0.49" prefHeight="73.0" prefWidth="137.0" text="rejouer" textFill="#3108d3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <TextField fx:id="screen1" layoutX="426.0" layoutY="283.0" prefHeight="42.0" prefWidth="171.0" />
+   </children>
+</AnchorPane>

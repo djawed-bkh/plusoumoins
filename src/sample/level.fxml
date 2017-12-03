@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.level">
+   <children>
+      <ImageView fitHeight="473.0" fitWidth="659.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@juste%20prix.jpg" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="135.0" layoutY="24.0" prefHeight="67.0" prefWidth="360.0">
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" color="#1b1b1b" height="48.32" radius="75.33" spread="0.58" width="255.0" />
+         </effect>
+      </TextField>
+      <Button fx:id="play" layoutX="212.0" layoutY="343.0" mnemonicParsing="false" onAction="#saisniv" prefHeight="67.0" prefWidth="206.0" text="JOUER" />
+   </children>
+</AnchorPane>
